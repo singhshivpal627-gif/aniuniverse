@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AniUniverse — discover anime, Hindi dubbed titles, movies and official places to watch.">
+  <title>AniUniverse — Anime Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#">Ani<span>Universe</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#anime">Anime</a>
+      <a href="#hindi">Hindi Dub</a>
+      <a href="#movies">Movies</a>
+    </nav>
+    <button class="data-btn" id="dataToggle" aria-pressed="false">📶 Low Data: Off</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO YOUR ANIME UNIVERSE</p>
+        <h1>Find your next <span>anime adventure.</span></h1>
+        <p class="sub">Discover series, movies and Hindi-dubbed anime — with a lightweight experience made for mobile data.</p>
+        <div class="actions">
+          <a class="primary" href="#anime">Explore Anime →</a>
+          <a class="secondary" href="#hindi">🇮🇳 Hindi Dubbed</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orbit">✦</div>
+        <div class="hero-character">A</div>
+        <p>ANIUNIVERSE</p>
+        <small>DISCOVER • EXPLORE • WATCH LEGALLY</small>
+      </div>
+    </section>
+
+    <section class="section" id="anime">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">TRENDING NOW</p>
+          <h2>Popular anime</h2>
+        </div>
+        <a href="#">View all →</a>
+      </div>
+      <div class="grid" id="animeGrid"></div>
+    </section>
+
+    <section class="banner" id="hindi">
+      <div>
+        <p class="eyebrow">🇮🇳 HINDI DUBBED</p>
+        <h2>Anime you can enjoy in Hindi.</h2>
+        <p>Use AniUniverse to discover titles and find their official viewing options.</p>
+      </div>
+      <a class="primary" href="#anime">Browse Hindi Dub</a>
+    </section>
+
+    <section class="section" id="movies">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">ANIME MOVIES</p>
+          <h2>Movie night</h2>
+        </div>
+        <a href="#">View all →</a>
+      </div>
+      <div class="grid" id="movieGrid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>AniUniverse</strong>
+    <span>Anime discovery made simple.</span>
+    <span>© 2026 AniUniverse</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
